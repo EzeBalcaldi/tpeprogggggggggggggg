@@ -8,10 +8,7 @@ public class SimularRedMayorista {
 		c.agregarSucursal(s);
 		c.agregarSucursal(d);
 		c.agregarSucursal(e);
-		c.inicializarCentral();
-		s.inicializarSucursal();
-		d.inicializarSucursal();
-		e.inicializarSucursal();
+		c.imprimirEstado();
 		//c.imprimirArreglo();
 		c.setMaximo(0, 70);
 		c.setMinimo(0, 50);
@@ -22,11 +19,11 @@ public class SimularRedMayorista {
 		//c.imprimirEstado();
 		//c.adquirirProductos();
 		c.completarProductos();
-		c.imprimirEstado(); 
+		//c.imprimirEstado(); 
 		s.venderProducto(0, 50);
 		//c.productosFaltantes(s);
 		//c.adquirirProductos();
-		c.imprimirEstado();
+		//c.imprimirEstado();
 		c.productosFaltantes(s);
 	}
 

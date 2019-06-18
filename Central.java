@@ -36,6 +36,7 @@ public class Central {
 		boolean insertado = false;
 		while(cantidadSucursales < MAXSUC -1 && !insertado){
 			if(sucursales[cantidadSucursales] == null){
+				s.inicializarSucursal();
 				sucursales[cantidadSucursales] = s;
 				insertado = true;	
 			}
